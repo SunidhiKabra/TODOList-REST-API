@@ -1,0 +1,21 @@
+{
+  "name": "noderestapi",
+  "version": "1.0.0",
+  "description": "Learn to create REST API in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Sunidhi kabra",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongod": "^2.0.0",
+    "mongoose": "^5.10.7"
+  }
+}
